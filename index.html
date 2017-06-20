@@ -19,7 +19,7 @@
       <div><h3>5</h3></div>
       <div><h3>6</h3></div>
     </div>
-    <div class="your-class">
+    <div class="slider">
       <div class="image">
         <img src="images/EQ7FS.png" </img></div>
         <img src="images/EQ7NoFS.png" </img></div>
@@ -32,8 +32,11 @@
     <!--  <script type="text/javascript" src="slick/slick.min.js"></script> -->
     <script>
       $(document).ready(function(){
-        $('.your-class').slick({
-          setting-name: setting-value
+        $('.slider').slick({
+          dots: true,
+          autoplay: true,
+          autoplaySpeed: 8000,
+          mobileFirst: true,
         });
       });
     </script>
